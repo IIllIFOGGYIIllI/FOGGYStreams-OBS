@@ -24,6 +24,8 @@ jobs:
           node --check /tmp/gta-vi-overlay.js
           node --check wwe-2k26/arena.js
           node --check wwe-2k26/production.js
+          node --check wwe-2k26/tv.js
+          node tests/tv-check.cjs
       - name: Stage Website
         run: |
           mkdir -p dist

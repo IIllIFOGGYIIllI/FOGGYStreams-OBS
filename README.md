@@ -29,3 +29,7 @@ Hub images link to publisher Steam artwork, Rockstar's GTA VI screenshot gallery
 ## WWE Ringside Production 2.0
 
 21 scenes, 26 browser sources, match format library, saved event rundown, 4/8/16 entrant brackets, Rumble/Gauntlet tracker, mystery reveals, preview of published graphics and Program Output. Manual game data; test OBS dock synchronisation first. Portraits are optional authorised HTTPS URLs.
+
+## Ringside Production 3.0 — Broadcast Graphics
+
+Portrait-led 1080p match graphics, theme-specific palettes, mirrored tournament layouts and compact Royal Rumble lower thirds with entry/elimination notices and manual countdowns. Eight official WWE profile images linked from WWE.com (not game renders; may depict real-world belts), plus custom roster artwork. Demo URLs never affect Program Output. Existing OBS v2.0 collection URLs remain compatible. Research: https://www.wwe.com/article/2025-king-queen-of-the-ring-tournament-bracket ; https://awfulannouncing.com/wwe/royal-rumble-new-lower-third-graphic-ticker.html ; https://www.wwe.com/shows/raw/2025-03-31/article/jimmy-uso-takes-on-gunther ; https://www.wwe.com/shows/smackdown/2025-02-21/article/cody-rhodes-damian-priest-braun-strowman-vs-solo-sikoa-jacob-fatu . Unofficial fan-created graphics; not WWE's proprietary broadcast package.
