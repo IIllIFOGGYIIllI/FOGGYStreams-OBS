@@ -1,0 +1,38 @@
+name: Publish FOGGYStreams OBS To GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: foggystreams-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Overlay Pack
+        run: |
+          python3 tests/check.py
+          node --check /tmp/gta-vi-overlay.js
+      - name: Stage Website
+        run: |
+          mkdir -p dist
+          cp index.html dist/
+          cp -R assets gta-vi downloads dist/
+          touch dist/.nojekyll
+          test -s dist/gta-vi/index.html
+          test -s dist/downloads/FOGGYStreams_Vice_City_OBS_v1.4.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment
