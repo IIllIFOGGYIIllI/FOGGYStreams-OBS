@@ -25,3 +25,7 @@ In Settings → Pages, choose GitHub Actions as the source. Run the Publish FOGG
 ## Artwork
 
 Hub images link to publisher Steam artwork, Rockstar's GTA VI screenshot gallery and the FiveM logo on Wikimedia Commons. The Universal card uses original branding. No publisher affiliation is implied. Remote artwork may change; fallback titles are provided.
+
+## WWE Ringside Production 2.0
+
+21 scenes, 26 browser sources, match format library, saved event rundown, 4/8/16 entrant brackets, Rumble/Gauntlet tracker, mystery reveals, preview of published graphics and Program Output. Manual game data; test OBS dock synchronisation first. Portraits are optional authorised HTTPS URLs.

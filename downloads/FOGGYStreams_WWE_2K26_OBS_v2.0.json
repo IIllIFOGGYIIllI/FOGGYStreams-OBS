@@ -64,6 +64,9 @@
     },
     {
       "name": "20 — Mystery Superstar Reveal"
+    },
+    {
+      "name": "21 — Producer Program Output"
     }
   ],
   "sources": [
@@ -2452,6 +2455,103 @@
           {
             "name": "2K26 | Mystery Superstar Reveal",
             "source_uuid": "f0260000-0000-4000-8000-000000000025",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Producer Program Output",
+      "uuid": "f0260000-0000-4000-8000-000000000026",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=program",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "21 — Producer Program Output",
+      "uuid": "f0260000-0000-4000-8000-000000000121",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Producer Program Output",
+            "source_uuid": "f0260000-0000-4000-8000-000000000026",
             "id": 1,
             "visible": true,
             "locked": true,
