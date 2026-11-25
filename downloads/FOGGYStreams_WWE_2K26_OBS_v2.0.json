@@ -1,0 +1,2501 @@
+{
+  "name": "FOGGYStreams — WWE 2K26 Ringside Production v2.0",
+  "current_scene": "01 — Starting Soon",
+  "current_program_scene": "01 — Starting Soon",
+  "current_transition": "Fade",
+  "transition_duration": 450,
+  "scene_order": [
+    {
+      "name": "01 — Starting Soon"
+    },
+    {
+      "name": "02 — Gameplay — Minimal HUD"
+    },
+    {
+      "name": "03 — Gameplay — Clean"
+    },
+    {
+      "name": "04 — Gameplay + Chat"
+    },
+    {
+      "name": "05 — Just Chatting"
+    },
+    {
+      "name": "06 — Be Right Back"
+    },
+    {
+      "name": "07 — Intermission"
+    },
+    {
+      "name": "08 — Match Card"
+    },
+    {
+      "name": "09 — Match Result"
+    },
+    {
+      "name": "10 — Championship Spotlight"
+    },
+    {
+      "name": "11 — Technical Difficulties"
+    },
+    {
+      "name": "12 — Stream Ending"
+    },
+    {
+      "name": "13 — Offline"
+    },
+    {
+      "name": "14 — Welcome To Ringside"
+    },
+    {
+      "name": "15 — Overlay Workshop"
+    },
+    {
+      "name": "16 — Event Rundown"
+    },
+    {
+      "name": "17 — Up Next"
+    },
+    {
+      "name": "18 — Tournament Bracket"
+    },
+    {
+      "name": "19 — Royal Rumble Tracker"
+    },
+    {
+      "name": "20 — Mystery Superstar Reveal"
+    }
+  ],
+  "sources": [
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Starting Soon",
+      "uuid": "f0260000-0000-4000-8000-000000000001",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=starting",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": true,
+        "restart_when_active": true
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Gameplay — Minimal HUD",
+      "uuid": "f0260000-0000-4000-8000-000000000002",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=gameplay",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Gameplay — Clean",
+      "uuid": "f0260000-0000-4000-8000-000000000003",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=gameplay-clean",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Gameplay + Chat",
+      "uuid": "f0260000-0000-4000-8000-000000000004",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=gameplay-chat",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Just Chatting",
+      "uuid": "f0260000-0000-4000-8000-000000000005",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=chat",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Be Right Back",
+      "uuid": "f0260000-0000-4000-8000-000000000006",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=brb",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Intermission",
+      "uuid": "f0260000-0000-4000-8000-000000000007",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=intermission",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Technical Difficulties",
+      "uuid": "f0260000-0000-4000-8000-000000000008",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=technical",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Stream Ending",
+      "uuid": "f0260000-0000-4000-8000-000000000009",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=ending",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Offline",
+      "uuid": "f0260000-0000-4000-8000-000000000010",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=offline",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Welcome To Ringside",
+      "uuid": "f0260000-0000-4000-8000-000000000011",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=welcome",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Manual Alerts",
+      "uuid": "f0260000-0000-4000-8000-000000000012",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=alerts",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Lower Third",
+      "uuid": "f0260000-0000-4000-8000-000000000013",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=lower-third",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Ticker",
+      "uuid": "f0260000-0000-4000-8000-000000000014",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=ticker",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Follower Goal",
+      "uuid": "f0260000-0000-4000-8000-000000000015",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=goal",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Clock",
+      "uuid": "f0260000-0000-4000-8000-000000000016",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=clock",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Manual Arena Sweep",
+      "uuid": "f0260000-0000-4000-8000-000000000017",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=stinger",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Match Card",
+      "uuid": "f0260000-0000-4000-8000-000000000018",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=match-card",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Match Result",
+      "uuid": "f0260000-0000-4000-8000-000000000019",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=match-result",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Championship Spotlight",
+      "uuid": "f0260000-0000-4000-8000-000000000020",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=championship",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "01 — Starting Soon",
+      "uuid": "f0260000-0000-4000-8000-000000000101",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Starting Soon",
+            "source_uuid": "f0260000-0000-4000-8000-000000000001",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "02 — Gameplay — Minimal HUD",
+      "uuid": "f0260000-0000-4000-8000-000000000102",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 3,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Gameplay — Minimal HUD",
+            "source_uuid": "f0260000-0000-4000-8000-000000000002",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Lower Third",
+            "source_uuid": "f0260000-0000-4000-8000-000000000013",
+            "id": 2,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Manual Alerts",
+            "source_uuid": "f0260000-0000-4000-8000-000000000012",
+            "id": 3,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "03 — Gameplay — Clean",
+      "uuid": "f0260000-0000-4000-8000-000000000103",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 2,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Gameplay — Clean",
+            "source_uuid": "f0260000-0000-4000-8000-000000000003",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Manual Alerts",
+            "source_uuid": "f0260000-0000-4000-8000-000000000012",
+            "id": 2,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "04 — Gameplay + Chat",
+      "uuid": "f0260000-0000-4000-8000-000000000104",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 2,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Gameplay + Chat",
+            "source_uuid": "f0260000-0000-4000-8000-000000000004",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Manual Alerts",
+            "source_uuid": "f0260000-0000-4000-8000-000000000012",
+            "id": 2,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "05 — Just Chatting",
+      "uuid": "f0260000-0000-4000-8000-000000000105",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 2,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Just Chatting",
+            "source_uuid": "f0260000-0000-4000-8000-000000000005",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Manual Alerts",
+            "source_uuid": "f0260000-0000-4000-8000-000000000012",
+            "id": 2,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "06 — Be Right Back",
+      "uuid": "f0260000-0000-4000-8000-000000000106",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Be Right Back",
+            "source_uuid": "f0260000-0000-4000-8000-000000000006",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "07 — Intermission",
+      "uuid": "f0260000-0000-4000-8000-000000000107",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Intermission",
+            "source_uuid": "f0260000-0000-4000-8000-000000000007",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "08 — Match Card",
+      "uuid": "f0260000-0000-4000-8000-000000000108",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Match Card",
+            "source_uuid": "f0260000-0000-4000-8000-000000000018",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "09 — Match Result",
+      "uuid": "f0260000-0000-4000-8000-000000000109",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Match Result",
+            "source_uuid": "f0260000-0000-4000-8000-000000000019",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "10 — Championship Spotlight",
+      "uuid": "f0260000-0000-4000-8000-000000000110",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Championship Spotlight",
+            "source_uuid": "f0260000-0000-4000-8000-000000000020",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "11 — Technical Difficulties",
+      "uuid": "f0260000-0000-4000-8000-000000000111",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Technical Difficulties",
+            "source_uuid": "f0260000-0000-4000-8000-000000000008",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "12 — Stream Ending",
+      "uuid": "f0260000-0000-4000-8000-000000000112",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Stream Ending",
+            "source_uuid": "f0260000-0000-4000-8000-000000000009",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "13 — Offline",
+      "uuid": "f0260000-0000-4000-8000-000000000113",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Offline",
+            "source_uuid": "f0260000-0000-4000-8000-000000000010",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "14 — Welcome To Ringside",
+      "uuid": "f0260000-0000-4000-8000-000000000114",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Welcome To Ringside",
+            "source_uuid": "f0260000-0000-4000-8000-000000000011",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "15 — Overlay Workshop",
+      "uuid": "f0260000-0000-4000-8000-000000000115",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 6,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Ticker",
+            "source_uuid": "f0260000-0000-4000-8000-000000000014",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Follower Goal",
+            "source_uuid": "f0260000-0000-4000-8000-000000000015",
+            "id": 2,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Clock",
+            "source_uuid": "f0260000-0000-4000-8000-000000000016",
+            "id": 3,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Lower Third",
+            "source_uuid": "f0260000-0000-4000-8000-000000000013",
+            "id": 4,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Manual Alerts",
+            "source_uuid": "f0260000-0000-4000-8000-000000000012",
+            "id": 5,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          },
+          {
+            "name": "2K26 | Manual Arena Sweep",
+            "source_uuid": "f0260000-0000-4000-8000-000000000017",
+            "id": 6,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Event Rundown",
+      "uuid": "f0260000-0000-4000-8000-000000000021",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=event-card",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "16 — Event Rundown",
+      "uuid": "f0260000-0000-4000-8000-000000000116",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Event Rundown",
+            "source_uuid": "f0260000-0000-4000-8000-000000000021",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Up Next",
+      "uuid": "f0260000-0000-4000-8000-000000000022",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=up-next",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "17 — Up Next",
+      "uuid": "f0260000-0000-4000-8000-000000000117",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Up Next",
+            "source_uuid": "f0260000-0000-4000-8000-000000000022",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Tournament Bracket",
+      "uuid": "f0260000-0000-4000-8000-000000000023",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=tournament",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "18 — Tournament Bracket",
+      "uuid": "f0260000-0000-4000-8000-000000000118",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Tournament Bracket",
+            "source_uuid": "f0260000-0000-4000-8000-000000000023",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Royal Rumble Tracker",
+      "uuid": "f0260000-0000-4000-8000-000000000024",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=royal-rumble",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "19 — Royal Rumble Tracker",
+      "uuid": "f0260000-0000-4000-8000-000000000119",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Royal Rumble Tracker",
+            "source_uuid": "f0260000-0000-4000-8000-000000000024",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "2K26 | Mystery Superstar Reveal",
+      "uuid": "f0260000-0000-4000-8000-000000000025",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=mystery-reveal",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": true,
+        "fps": 30,
+        "reroute_audio": false,
+        "css": "body { margin: 0; overflow: hidden; }",
+        "shutdown": false,
+        "restart_when_active": false
+      }
+    },
+    {
+      "prev_ver": 0,
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [],
+      "name": "20 — Mystery Superstar Reveal",
+      "uuid": "f0260000-0000-4000-8000-000000000120",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "2K26 | Mystery Superstar Reveal",
+            "source_uuid": "f0260000-0000-4000-8000-000000000025",
+            "id": 1,
+            "visible": true,
+            "locked": true,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "rot": 0,
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "crop_bottom": 0,
+            "scale_filter": 0,
+            "blend_method": 0,
+            "blend_type": 0
+          }
+        ]
+      }
+    }
+  ],
+  "groups": [],
+  "transitions": [
+    {
+      "id": "fade_transition",
+      "name": "Fade"
+    }
+  ],
+  "quick_transitions": [],
+  "saved_projectors": [],
+  "modules": {},
+  "preview_locked": false,
+  "scaling_enabled": false,
+  "scaling_level": 0,
+  "scaling_off_x": 0,
+  "scaling_off_y": 0
+}

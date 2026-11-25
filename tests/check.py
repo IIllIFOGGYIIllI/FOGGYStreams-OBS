@@ -38,3 +38,8 @@ for s in refs.values():
         assert all(i['source_uuid'] in refs and refs[i['source_uuid']]['name']==i['name'] for i in s['settings']['items'])
 assert '02 Available / 04 Planned' in (root/'index.html').read_text()
 print('WWE 2K26 pack validation passed')
+
+q = json.loads((root/"downloads/FOGGYStreams_WWE_2K26_OBS_v2.0.json").read_text())
+assert len(q["scene_order"])==20 and len(q["sources"])==45
+ids={s["uuid"]:s for s in q["sources"]}
+assert all(ids[i["source_uuid"]]["name"]==i["name"] for s in q["sources"] if s["id"]=="scene" for i in s["settings"]["items"])

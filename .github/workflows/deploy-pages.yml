@@ -23,6 +23,7 @@ jobs:
           python3 tests/check.py
           node --check /tmp/gta-vi-overlay.js
           node --check wwe-2k26/arena.js
+          node --check wwe-2k26/production.js
       - name: Stage Website
         run: |
           mkdir -p dist
