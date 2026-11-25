@@ -37,3 +37,7 @@ Portrait-led 1080p match graphics, theme-specific palettes, mirrored tournament 
 ## WWE 3.1 — Customisation
 
 Free-text match type/format with suggestions, per-match on-air heading and descriptions, custom result fields, portrait URL per entrant, editable global broadcast captions, per-scene text and colour overrides, duplication, editable tournament and Rumble entrants without reset, all-at-once elimination tracking. Changes are saved backstage until applied; browser storage and OBS dock sync are still required.
+
+## WWE 3.2 — Automatic Portraits
+
+Searchable roster picker for match cards, tournaments and Rumbles; automatic normalized/alias lookup, portrait previews, and manual artwork overrides. Built-in WWE profile images include The Miz, Jeff Hardy, Chad Gable and Rey Fenix. The build indexes public image links from https://www.thesmackdownhotel.com/wwe2k26/roster/ and https://www.wwe.com/superstars. Portraits are externally hosted and not all game variants are guaranteed. Source rights remain with their respective owners. The importer is best-effort and logs its actual count in Actions.

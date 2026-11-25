@@ -25,6 +25,7 @@ jobs:
           node --check wwe-2k26/arena.js
           node --check wwe-2k26/production.js
           node --check wwe-2k26/tv.js
+          node --check wwe-2k26/roster.js
           node tests/tv-check.cjs
       - name: Stage Website
         run: |
@@ -37,6 +38,9 @@ jobs:
           test -s dist/wwe-2k26/arena.js
           test -s dist/downloads/FOGGYStreams_WWE_2K26_OBS_v1.0.json
           test -s dist/downloads/FOGGYStreams_Vice_City_OBS_v1.4.json
+      - name: Index Roster Artwork
+        timeout-minutes: 3
+        run: python3 scripts/build-roster.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

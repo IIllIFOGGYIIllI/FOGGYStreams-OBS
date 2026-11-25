@@ -1,14 +1,5 @@
 "use strict";
-const TV_ROSTER={
-  "Roman Reigns": "https://www.wwe.com/f/styles/talent_champion_lg/public/2026/05/Roman_Reigns_PROFILE.png",
-  "Cody Rhodes": "https://www.wwe.com/f/styles/talent_champion_lg/public/2026/06/CODY_RHODES_PROFILE.png",
-  "Gunther": "https://www.wwe.com/f/styles/talent_champion_lg/public/2026/02/GUNTHER_07122025gd_0142_Profile.png",
-  "Seth Rollins": "https://www.wwe.com/f/styles/talent_champion_lg/public/2026/05/SETH_ROLLINS_04132026sb_0095_Profile.png",
-  "Randy Orton": "https://www.wwe.com/f/styles/talent_champion_lg/public/all/2024/03/Randy_Orton_11272023rf_071_Profile--9f48e983c9e721c0a5659fc639f1c14a.png",
-  "Liv Morgan": "https://www.wwe.com/f/styles/talent_champion_lg/public/2026/10/LivTitle_Profile.png",
-  "IYO SKY": "https://www.wwe.com/f/styles/talent_champion_lg/public/2026/11/IyoSky_08012026br_14823_IC_Title_PROFILE.png",
-  "CM Punk": "https://www.wwe.com/f/styles/talent_champion_lg/public/2026/04/CMPunk_PROFILE.png"
-};
+const TV_ROSTER=rosterLibrary();
 function tvGraphic(mode,s,frame,e){
  const demo=new URLSearchParams(location.search).get("demo")==="1"&&new URLSearchParams(location.search).get("scene")!=="program";
  let p=s.productionAir||{},m=p.match||{people:[{name:s.competitorA},{name:s.competitorB}],type:s.matchType,title:s.championship,winner:s.winner,method:s.resultMethod};
@@ -18,9 +9,9 @@ function tvGraphic(mode,s,frame,e){
  if(mode==="royal-rumble"){[ac,bg,hi]=themes["Royal Rumble"];theme="Royal Rumble";}
  const c=p.custom||{},L=k=>customText(c,k);ac=customColor(c.colors?.accent,ac);bg=customColor(c.colors?.background,bg);hi=customColor(c.colors?.highlight,hi);const event=p.event||s.event||"WWE 2K26",roster={...TV_ROSTER,...(p.roster||{})};
  const safe=u=>{try{const x=new URL(u);return x.protocol==="https:"?x.href:""}catch{return ""}};
- const pic=x=>x?.hidden?"":safe(x?.image||roster[x?.name]||Object.entries(roster).find(([n])=>n.toLowerCase()===String(x?.name||"").toLowerCase())?.[1]);
+ const pic=x=>x?.hidden?"":safe(x?.image||rosterPortrait(x?.name,p.roster||{}));
  const silhouette='<svg viewBox="0 0 300 400" aria-hidden="true"><path d="M150 18C108 18 92 59 95 102L106 156 65 173Q17 202 10 398H290Q283 202 235 173L194 156 205 102C208 59 192 18 150 18Z" fill="#0a0b0e" stroke="#ffffff38" stroke-width="2"/></svg>';
- const person=(x,cl="")=>{const name=x?.hidden?L("Mystery Superstar"):x?.name==="TBD"?L("TBD"):x?.name||L("TBD"),u=pic(x);return '<div class="tv-person '+cl+'"><div class="tv-figure">'+silhouette+(u?'<img src="'+e(u)+'" alt="" referrerpolicy="no-referrer" onerror="this.hidden=true">':"")+(x?.hidden?'<b class="tv-question">?</b>':"")+'</div><div class="tv-name">'+e(name)+'</div></div>'};
+ const person=(x,cl="")=>{const name=x?.hidden?L("Mystery Superstar"):x?.name==="TBD"?L("TBD"):x?.name||L("TBD"),u=pic(x),fallback=x?.hidden?"":rosterPortraitCandidates(x?.name,p.roster||{}).map(safe).find(v=>v&&v!==u)||"";return '<div class="tv-person '+cl+'"><div class="tv-figure">'+silhouette+(u?'<img src="'+e(u)+'" alt="" referrerpolicy="no-referrer" data-fallback="'+e(fallback)+'" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\'}else this.hidden=true">':"")+(x?.hidden?'<b class="tv-question">?</b>':"")+'</div><div class="tv-name">'+e(name)+'</div></div>'};
  const style='style="--tv-a:'+ac+';--tv-bg:'+bg+';--tv-hi:'+hi+'"';
  const logo='<div class="tv-logo"><small>'+e(L("FOGGYStreams Presents"))+'</small><strong>'+e(event)+'</strong><span>'+e(L("WWE 2K26"))+'</span></div>';
  const start=(label,cls="")=>'<div class="tv '+cls+'" '+style+'><div class="tv-bg"></div><div class="tv-lines"></div><div class="tv-top"><b>'+e(L(label))+'</b><span>'+e(L("FOGGYStreams / WWE 2K26"))+'</span></div>';
