@@ -41,3 +41,7 @@ Free-text match type/format with suggestions, per-match on-air heading and descr
 ## WWE 3.2 — Automatic Portraits
 
 Searchable roster picker for match cards, tournaments and Rumbles; automatic normalized/alias lookup, portrait previews, and manual artwork overrides. Built-in WWE profile images include The Miz, Jeff Hardy, Chad Gable and Rey Fenix. The build indexes public image links from https://www.thesmackdownhotel.com/wwe2k26/roster/ and https://www.wwe.com/superstars. Portraits are externally hosted and not all game variants are guaranteed. Source rights remain with their respective owners. The importer is best-effort and logs its actual count in Actions.
+
+## WWE 3.3 — Roster gallery and artwork coverage
+
+Uses the game-roster index that previously returned 512 links. Each link is checked for image content; coverage is published in `wwe-2k26/roster-coverage.json` and GitHub Actions. Editor includes a searchable visual gallery, direct portrait selection, entrant editing, ordering and mystery flags. Penta and Drew McIntyre are included alongside The Miz, Jeff Hardy, Chad Gable and Rey Fenix. External artwork remains on its original hosts; an HTTP check does not guarantee exact in-game attire. OBS URLs and saved shows remain compatible.

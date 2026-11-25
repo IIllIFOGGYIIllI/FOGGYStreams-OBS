@@ -2,7 +2,8 @@
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
 from urllib.parse import urljoin, urlparse
-import re, json, sys
+import re, json, sys, datetime
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 BASE = "https://www.thesmackdownhotel.com"
 WWE = "https://www.wwe.com"
@@ -58,18 +59,69 @@ class Cards(HTMLParser):
             self.card=None
 def parse(html,base):
     p=Cards(base);p.feed(html);return p.results
+def valid_image(url):
+    try:
+        req=Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; FOGGYStreams roster verification)","Accept":"image/*","Range":"bytes=0-4095"})
+        with urlopen(req,timeout=8) as res:
+            ct=res.headers.get("Content-Type","").lower()
+            head=res.read(4096)
+            return ct.startswith("image/") and (head.startswith((b"\x89PNG",b"\xff\xd8\xff",b"RIFF",b"GIF8")) or b"ftypavif" in head[:32] or b"ftypavis" in head[:32])
+    except Exception:return False
+
+def roster_key(v):
+    import unicodedata
+    return re.sub(r"[^a-z0-9]+"," ",unicodedata.normalize("NFKD",v).encode("ascii","ignore").decode().lower()).strip()
+
 def main():
-    # Fail soft: a blocked source must not prevent the overlay deployment.
     result={}
-    for url,base in ((ROSTER,BASE),(OFFICIAL,WWE)):
-        try:
-            records=parse(fetch(url),base)
-            print(f"{url}: indexed {len(records)} portrait links")
-            for n,u in records.items():result.setdefault(n,u)
-        except Exception as exc:print(f"::warning::Roster artwork source unavailable: {exc}")
-    target=Path("dist/wwe-2k26/roster-generated.js")
-    if result:
-        target.write_text("const GENERATED_ROSTER = "+json.dumps(result,ensure_ascii=False)+";\n",encoding="utf-8")
-    else:print("::warning::No new artwork indexed; built-in portraits remain available.")
-    print(f"Imported {len(result)} artwork links")
+    expected=None
+    source_error=""
+    seed=json.loads(Path("wwe-2k26/roster-seed.json").read_text(encoding="utf-8"))
+    cache=Path(".roster-cache/index.json")
+    try:prior=json.loads(cache.read_text(encoding="utf-8"))
+    except (OSError,ValueError):prior={}
+    try:
+        html=fetch(ROSTER)
+        plain=re.sub(r"<[^>]*>"," ",html)
+        m=re.search(r"\bALL\s*\(\s*(\d+)\s*\)",plain,re.I)
+        expected=int(m[1]) if m else 512
+        result=parse(html,BASE)
+        print(f"Game roster source: {len(result)}/{expected} portrait links")
+        if len(result)<expected:
+            source_error="Source returned a partial roster"
+            for name,url in prior.get("links",{}).items():result.setdefault(name,url)
+    except Exception as exc:
+        source_error=str(exc)
+        result=prior.get("links",{})
+        expected=prior.get("expected",512)
+    game_count=len(result)
+    keys={roster_key(n):n for n in seed}
+    # Validate every imported link with real HTTP image content, without downloading full-size images.
+    def check(item):
+        name,url=item
+        if valid_image(url):return name,url,True
+        fallback=seed.get(keys.get(roster_key(name),""))
+        if fallback and valid_image(fallback):return name,fallback,True
+        return name,url,False
+    with ThreadPoolExecutor(max_workers=8) as pool:checked=list(pool.map(check,result.items()))
+    verified=sum(v for n,u,v in checked)
+    # Preserve original source links even if a host temporarily blocks a build runner.
+    # They are never described as verified. Browser onload provides an independent check.
+    manifest={n:u for n,u,v in checked}
+    missing=[n for n,u,v in checked if not v]
+    required=["The Miz","Jeff Hardy","Chad Gable","Rey Fenix","Penta","Drew McIntyre"]
+    with ThreadPoolExecutor(max_workers=6) as pool:required_status=dict(zip(required,pool.map(lambda n:valid_image(seed[n]),required)))
+    report={"source":ROSTER,"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"status":"complete" if game_count==expected and verified==expected and not source_error and all(required_status.values()) else "incomplete","expected":expected,"indexed":game_count,"verified":verified,"missing":missing,"required_portraits":required_status,"source_error":source_error,"note":"Image HTTP content checks, not proof of exact in-game attire or browser display. Externally hosted artwork; seed portrait fallbacks are used where available."}
+    target=Path("dist/wwe-2k26")
+    target.mkdir(parents=True,exist_ok=True)
+    (target/"roster-generated.js").write_text("const GENERATED_ROSTER = "+json.dumps(manifest,ensure_ascii=False)+";\nconst GENERATED_COVERAGE = "+json.dumps(report,ensure_ascii=False)+";\n",encoding="utf-8")
+    (target/"roster-coverage.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
+    cache.parent.mkdir(parents=True,exist_ok=True)
+    cache.write_text(json.dumps({"expected":expected,"links":result},ensure_ascii=False),encoding="utf-8")
+    print(f"ROSTER COVERAGE: {verified}/{expected} verified, {game_count} indexed, {len(missing)} unverified. Required: {required_status}")
+    if report["status"]!="complete":print("::warning::Full artwork coverage is not verified; see roster-coverage.json")
+    import os
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        with open(os.environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as out:
+            out.write(f"## WWE 2K26 Artwork Coverage\n\nStatus: **{report['status']}**\n\nVerified {verified}/{expected}; indexed {game_count}.\n\nRequested portraits: {required_status}\n\nSource error: {source_error or 'None'}\n")
 if __name__=="__main__":main()

@@ -38,8 +38,14 @@ jobs:
           test -s dist/wwe-2k26/arena.js
           test -s dist/downloads/FOGGYStreams_WWE_2K26_OBS_v1.0.json
           test -s dist/downloads/FOGGYStreams_Vice_City_OBS_v1.4.json
-      - name: Index Roster Artwork
-        timeout-minutes: 3
+      - name: Restore Roster Index Cache
+        uses: actions/cache@v4
+        with:
+          path: .roster-cache
+          key: wwe2k26-roster-${{ github.run_id }}
+          restore-keys: wwe2k26-roster-
+      - name: Index And Verify Entire Roster
+        timeout-minutes: 20
         run: python3 scripts/build-roster.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
