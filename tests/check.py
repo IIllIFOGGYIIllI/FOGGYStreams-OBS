@@ -19,3 +19,22 @@ for s in sources.values():
         for i in s['settings']['items']:
             assert i['source_uuid'] in sources and sources[i['source_uuid']]['name']==i['name']
 print('Overlay pack validation passed')
+
+# WWE 2K26 pack and hub
+w = (root/'wwe-2k26/arena.js').read_text()
+assert 'Date.now()+600000' in w
+assert 'brb:["Taking A Break","Be Right","Back","The Action Will Resume Shortly",""]' in w
+assert all(x in w for x in ('match-card','match-result','championship'))
+p = json.loads((root/'downloads/FOGGYStreams_WWE_2K26_OBS_v1.0.json').read_text())
+refs = {s['uuid']:s for s in p['sources']}
+assert len(refs)==35 and len(p['scene_order'])==15
+assert sum(s['id']=='browser_source' for s in refs.values())==20
+for s in refs.values():
+    if s['id']=='browser_source':
+        assert s['settings']['url'].startswith('https://iillifoggyiilli.github.io/FOGGYStreams-OBS/wwe-2k26/index.html?scene=')
+        assert s['settings']['width']==1920 and s['settings']['height']==1080
+        assert s['settings']['url'].split('scene=')[1] in w
+    elif s['id']=='scene':
+        assert all(i['source_uuid'] in refs and refs[i['source_uuid']]['name']==i['name'] for i in s['settings']['items'])
+assert '02 Available / 04 Planned' in (root/'index.html').read_text()
+print('WWE 2K26 pack validation passed')

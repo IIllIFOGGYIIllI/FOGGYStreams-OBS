@@ -10,7 +10,9 @@ https://iillifoggyiilli.github.io/FOGGYStreams-OBS/
 
 - GTA VI / Vice City Broadcast v1.4: 12 scenes, 17 hosted sources, 1920 × 1080, ten-minute Starting Soon timer, timer-free BRB, no webcam.
 
-DayZ, FiveM, BeamNG.drive, WWE 2K26 and Universal packs are planned.
+- WWE 2K26 / Ringside Broadcast v1.0: 15 scenes, 20 hosted sources, editable match cards, results and championship spotlight. Includes 10-minute start, timer-free BRB and no webcam.
+
+DayZ, FiveM, BeamNG.drive and Universal packs are planned.
 
 ## Setup
 
@@ -19,3 +21,7 @@ Import the JSON from downloads/ or copy individual Browser Source URLs from the 
 ## GitHub Pages
 
 In Settings → Pages, choose GitHub Actions as the source. Run the Publish FOGGYStreams OBS workflow if necessary. The workflow validates the overlay script and scene references before deployment.
+
+## Artwork
+
+Hub images link to publisher Steam artwork, Rockstar's GTA VI screenshot gallery and the FiveM logo on Wikimedia Commons. The Universal card uses original branding. No publisher affiliation is implied. Remote artwork may change; fallback titles are provided.

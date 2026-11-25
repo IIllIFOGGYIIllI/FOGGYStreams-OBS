@@ -22,13 +22,17 @@ jobs:
         run: |
           python3 tests/check.py
           node --check /tmp/gta-vi-overlay.js
+          node --check wwe-2k26/arena.js
       - name: Stage Website
         run: |
           mkdir -p dist
           cp index.html dist/
-          cp -R assets gta-vi downloads dist/
+          cp -R assets gta-vi wwe-2k26 downloads dist/
           touch dist/.nojekyll
           test -s dist/gta-vi/index.html
+          test -s dist/wwe-2k26/index.html
+          test -s dist/wwe-2k26/arena.js
+          test -s dist/downloads/FOGGYStreams_WWE_2K26_OBS_v1.0.json
           test -s dist/downloads/FOGGYStreams_Vice_City_OBS_v1.4.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
