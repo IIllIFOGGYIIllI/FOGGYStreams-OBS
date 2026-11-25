@@ -45,3 +45,7 @@ Searchable roster picker for match cards, tournaments and Rumbles; automatic nor
 ## WWE 3.3 — Roster gallery and artwork coverage
 
 Uses the game-roster index that previously returned 512 links. Each link is checked for image content; coverage is published in `wwe-2k26/roster-coverage.json` and GitHub Actions. Editor includes a searchable visual gallery, direct portrait selection, entrant editing, ordering and mystery flags. Penta and Drew McIntyre are included alongside The Miz, Jeff Hardy, Chad Gable and Rey Fenix. External artwork remains on its original hosts; an HTTP check does not guarantee exact in-game attire. OBS URLs and saved shows remain compatible.
+
+## WWE 3.4 — True Preview / Program Separation
+
+The right monitor previews the selected draft through tab-local session storage. The left monitor shows only published overlay state, not an OBS video feed. Take Cue To Air publishes the complete prepared snapshot. Empty/invalid cues remain clear, and demo data is excluded from both monitors. Clear Program does not affect the draft or preview. OBS URLs remain unchanged.
